@@ -24,6 +24,6 @@ with(power07,points(day,Sub_metering_2,type="l",col="red"))
 with(power07,points(day,Sub_metering_3,type="l",col="blue"))
 legend("topright",lty=c(1,1),col=c("black","red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
 
-with(power07,plot(day,Global_active_power,type="l",xlab="datetime"))
+with(power07,plot(day,Global_reactive_power,type="l",xlab="datetime"))
 
 dev.off()
